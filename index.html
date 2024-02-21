@@ -28,8 +28,9 @@
 
         <section class="container d-flex flex-column justify-content-center align-items-center py-5">
             <h1>Email list</h1>
-            <div class="card p-3">
-                {{ emailList }}
+
+            <div v-for="(emailItem, index) in emailList" :key="index" class="card p-3 w-100 d-flex">
+                <div class="">{{emailItem}}</div>
             </div>
 
         </section>
