@@ -1,0 +1,7 @@
+#email-box {
+    max-width: 300px;
+}
+
+section {
+    overflow-y: auto;
+}
